@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Perro Perro - Contacto</title>
+</head>
+
+<body>
+<table width="90%" border="0" align="center">
+    <tr>      
+	  <td width="25%"><img src="logo-perroperro.jpg" width="285" height="150" alt=""/></td>
+      <td width="15%" align="center"><a href="index.html">INICIO</a></td>
+      <td width="15%" align="center"><a href="quienes.html">¿QUIÉNES SOMOS?</a></td>
+      <td width="15%" align="center"><a href="nuestros-servicios.html">NUESTROS SERVICIOS</a></td>
+      <td width="15%" align="center"><a href="precios.html">PRECIOS</a></td>
+      <td width="15%" align="center"><strong>CONTACTO</strong></td>
+    </tr>
+</table>
+
+<div>
+<h1>Contáctanos:</h1>
+<form method="post" action="miservidor.php">
+	<div>
+ 		<label for="nombre">Nombre y apellido </label>
+	    <input id="nombre" type="text">
+	</div>
+	<div>
+ 		<label for="telefono">Número de teléfono </label>
+	    <input id="telefono" type="number">
+	</div>	
+	<div>
+    	<label for="mail">Email:</label>
+   	  	<input id="mail" type="text">
+  	</div>
+	<div>
+    	<label for="tamano">Tamaño de tu mascota:</label>
+		<input name="tamano" type="radio" value="grande">Grande
+		<input name="tamano" type="radio" value="mediano">Mediano
+		<input name="tamano" type="radio" value="pequeño">Pequeño
+  	</div>	
+	<div>
+   	  <label for="mensaje">Cuéntanos::</label>
+   	  <textarea id="mensaje"></textarea>
+    </div>
+  	<input type="submit" value="Enviar"> 
+</form>
+	
+</body>
+</html>
